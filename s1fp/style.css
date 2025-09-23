@@ -1,4 +1,53 @@
 body {
-    background-color: firebrick;
-    color: sandybrown;
+    color: white;
+    text-shadow:
+    1px 1px 1px brown,
+    2px 2px 1px brown;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    cursor: url('/s1fp/public/rock.png'), auto;
+
+}
+
+#home {
+    background-image: url("https://gripped.com/wp-content/uploads/2018/11/Alex-HOnnold.jpg");
+}
+
+#left {
+    background-color: black;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.text {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.title {
+    color: lightgreen;
+    text-shadow:
+    2px 2px 1px darkkhaki;
+    font-size: 40px;
+    font-style:italic;
+    font-weight: bolder;
+}
+
+#tag {
+    letter-spacing: 12px;
+    text-shadow:
+    1px 1px 1px purple,
+    2px 2px 1px ;
+    color: white;
 }
