@@ -1,22 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
+    cursor: url('/s1fp/public/rock.png'), auto;
+
+}
+
+#home {
+    background-image: url("https://api.cloudly.space/resize/clip/1200/760/75/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjIxLzI0OC83ODQ2MDUuanBn/image.jpg");
     color: white;
     text-shadow:
     1px 1px 1px brown,
     2px 2px 1px brown;
     letter-spacing: 4px;
     word-spacing: 6px;
-    cursor: url('/s1fp/public/rock.png'), auto;
-
-}
-
-#home {
-    background-image: url("https://gripped.com/wp-content/uploads/2018/11/Alex-HOnnold.jpg");
 }
 
 #left {
-    background-color: black;
+    background-repeat:round;
+    background-image: url("https://gripped.com/wp-content/uploads/2018/11/Alex-HOnnold.jpg");
 }
 
+
+.main-body {
+    background-color: #353935;
+    padding: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+pre {
+    background-color: lightcyan;
+    color: black; 
+    font-weight:600;
+    text-shadow:none;
+    padding: 15px; /* Inner spacing */
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto; 
+    font-style: normal;
+    font-size: 1.2em;
+    word-spacing: 0px;
+    line-height: 1.3;
+    overflow: auto;
+    white-space: pre-wrap; /* Allows wrapping of long lines while preserving whitespace */
+    word-wrap: break-word; /* Breaks long words to prevent horizontal scrolling */
+}
 
 .flex{
     display: flex;
