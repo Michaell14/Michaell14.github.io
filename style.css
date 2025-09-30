@@ -29,6 +29,11 @@ body {
     font-style: normal;
 }
 
+#hand {
+    position: absolute;
+    right: 0;
+}
+
 
 .main-body {
     background-color: ;
