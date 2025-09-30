@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 body {
     cursor: url('/s1fp/public/rock.png'), auto;
@@ -20,9 +21,17 @@ body {
     background-image: url("https://gripped.com/wp-content/uploads/2018/11/Alex-HOnnold.jpg");
 }
 
+#right {
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 .main-body {
-    background-color: #353935;
+    background-color: ;
     padding: 30px;
     max-width: 700px;
     margin: 0 auto;

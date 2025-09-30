@@ -103,5 +103,4 @@ const questions = [
       showQuestion();
     }
 
-    // Start quiz
     showQuestion();
